@@ -16,6 +16,21 @@ The result is shown along with a full history of previous calculations.
 
 ![image](https://github.com/user-attachments/assets/fed622ae-a317-4e18-bfaa-4f25c68873bd)
 
+## 📂 Project Structure
+```
+MathCalculatorMVC/
+├── Controllers/
+│ └── CalculatorController.cs
+├── Models/
+│ └── Calculation.cs
+├── Views/
+│ └── Calculator/
+│ └── Index.cshtml
+├── wwwroot/
+│ └── lib/, css/, js/
+├── Program.cs
+└── README.md
+```
 
 ## 🛠 Tech Stack
 
@@ -24,7 +39,13 @@ The result is shown along with a full history of previous calculations.
 - C#
 - Static memory list as in-memory "database"
 
+## 💡 How to Run
+
+### 🧑‍💻 Prerequisites:
+- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+
 ## 🚀 How to Run
 
 ```bash
 dotnet run
+```
